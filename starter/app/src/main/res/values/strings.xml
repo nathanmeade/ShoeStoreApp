@@ -2,4 +2,8 @@
     <string name="app_name">ShoeStore</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="emailLabel">Email:</string>
+    <string name="passwordLabel">Password:</string>
+    <string name="register">Register</string>
 </resources>
