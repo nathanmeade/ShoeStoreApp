@@ -39,6 +39,7 @@
         android:layout_marginBottom="48dp"
         android:text="@string/next"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="@+id/action_welcomeFragment_to_instructionFragment"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
