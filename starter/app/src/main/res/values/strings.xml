@@ -6,7 +6,9 @@
     <string name="emailLabel">Email:</string>
     <string name="passwordLabel">Password:</string>
     <string name="register">Register</string>
-    <string name="proceed_to_the_next_screen_for_instructions_on_how_to_use_the_shoe_store_app">Proceed to the next screen for instructions on how to use the Shoe Store app!</string>
+    <string name="welcome_screen_subtext">Proceed to the next screen for instructions on how to use the Shoe Store app!</string>
     <string name="welcome">Welcome!</string>
     <string name="next">Next</string>
+    <string name="instructions_screen_subtext">Proceed to the next screen to be able to scroll through the full list of shoes in your inventory! Select the \'+\' button to add more shoes to your inventory!</string>
+    <string name="instructions">Instructions:</string>
 </resources>
