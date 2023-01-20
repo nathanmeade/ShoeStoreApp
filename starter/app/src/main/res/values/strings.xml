@@ -6,4 +6,7 @@
     <string name="emailLabel">Email:</string>
     <string name="passwordLabel">Password:</string>
     <string name="register">Register</string>
+    <string name="proceed_to_the_next_screen_for_instructions_on_how_to_use_the_shoe_store_app">Proceed to the next screen for instructions on how to use the Shoe Store app!</string>
+    <string name="welcome">Welcome!</string>
+    <string name="next">Next</string>
 </resources>
