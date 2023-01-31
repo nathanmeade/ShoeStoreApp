@@ -13,4 +13,6 @@
     <string name="instructions">Instructions:</string>
     <string name="add_shoe_to_inventory_button">Add shoe to inventory button</string>
     <string name="logout">Logout</string>
+    <string name="input_email_address">Input email address</string>
+    <string name="input_password">Input password</string>
 </resources>
