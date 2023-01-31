@@ -12,4 +12,5 @@
     <string name="instructions_screen_subtext">Proceed to the next screen to be able to scroll through the full list of shoes in your inventory! Select the \'+\' button to add more shoes to your inventory!</string>
     <string name="instructions">Instructions:</string>
     <string name="add_shoe_to_inventory_button">Add shoe to inventory button</string>
+    <string name="logout">Logout</string>
 </resources>
