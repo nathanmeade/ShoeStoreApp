@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/loginFragment"
+        android:title="Login" />
+    <item android:id="@+id/welcomeFragment"
+        android:title="Welcome" />
+    <item android:id="@+id/instructionFragment"
+        android:title="Instruction" />
+    <item android:id="@+id/shoeListFragment"
+        android:title="Shoe List" />
+</menu>
