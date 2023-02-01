@@ -22,20 +22,19 @@ class ShoeDetailFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        viewModel = ViewModelProvider(requireActivity())[ShoeViewModel::class.java]
         binding = DataBindingUtil.inflate(
             inflater,
             R.layout.fragment_shoe_detail,
             container,
             false)
-        viewModel = ViewModelProvider(this)[ShoeViewModel::class.java]
-        binding.shoeViewModel = viewModel
-        binding.cancelButton.setOnClickListener {
-            val action = ShoeDetailFragmentDirections.actionShoeDetailFragmentToShoeListFragment()
-            findNavController().navigate(action)
-        }
         binding.saveButton.setOnClickListener {
             val shoe = Shoe(binding.nameField.text.toString(), binding.sizeField.text.toString().toDouble(), binding.companyField.text.toString(), binding.descriptionField.text.toString())
             viewModel.addShoe(shoe)
+            val action = ShoeDetailFragmentDirections.actionShoeDetailFragmentToShoeListFragment()
+            findNavController().navigate(action)
+        }
+        binding.cancelButton.setOnClickListener {
             val action = ShoeDetailFragmentDirections.actionShoeDetailFragmentToShoeListFragment()
             findNavController().navigate(action)
         }
